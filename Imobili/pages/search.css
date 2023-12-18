@@ -1,0 +1,32 @@
+.leftbar{
+    margin-top: 50px;
+    top: 100px;
+    height: 100%;
+    width: 15em;
+    border: 1px solid rgba(0, 0, 0, 0.185);
+    background-color: rgba(255, 255, 255, 0.404);
+}
+.last{
+    border-bottom: 1px solid black;
+}
+.change-valor{
+    padding: 0;
+}
+.change-valor2{
+    padding: 0;
+}
+.change-valor,
+.change-valor2{
+    border: none;
+}
+button img{
+    width: 20px;
+}
+button{
+    background-color: rgba(0, 0, 0, 0);
+}
+fieldset{
+    display: flex;
+    align-items: center;
+}
+
