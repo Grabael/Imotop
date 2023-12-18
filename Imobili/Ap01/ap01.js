@@ -1,40 +1,28 @@
 var apart = document.getElementById('Ap')
 var style = document.getElementById('style')
 var style2 = document.getElementById('style2')
+var Apinteiro = document.getElementById('inteira')
 
-function Aumentarimg(){
+function vizualizar(){
+    Apinteiro.innerHTML = `
+    <div class="Apinteiro"><img src="./ap01.jpg" alt="Fuzzy Cardigan" class="img-thumbnail mb-3 d-none d-sm-block">
+    <div id="trocacena">
+    <a id="esquerda">Esquerda</a>
+    <a id="direita">Direita</a>
+    </div>
+    </div>
+    `
     style.innerHTML = `
-    #trocacena{
+    #inteira{
+        position: fixed;
         bottom: 0;
-        opacity: 100;
-        transition: 0.7s;
-        display: flex;
-        z-index: 9;
-        position:absolute;
-        justify-content: center;
+        z-index: 8;
+        height: 100vh;
+        width: 100vw;
+        background-color: rgba(0, 0, 0, 0.5)
     }
-        .tomabrasilkkj{
-        height: 70vh;
-        width: 70vw;
-        left: 25%;
-        transition: 0.7s;
-        position: relative;
-        z-index: 7;
-        display: flex;
-        justify-content: center;
-
-    }
-        .tomabrasilkkj img{
-            height: 70vh;
-            width: 70vw;
-            z-index: 8;
-            position: absolute;
-            transition: 0.7s;
-            object-fit: fill;
-        }
     `
 }
-
 function tirahover(){
     style2.innerHTML = ``
 }

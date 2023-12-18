@@ -47,18 +47,36 @@ button{
     border: none;
 }
 .tomabrasilkkj{
-    left: 0;
-    width: 100%;
-    height: 100%;
+    position: relative;
+
 }
-#direita{
-    float: right;
-    
+.Apinteiro{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 13vh;
+    left: 25vw;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px black;
 }
-.tomabrasilkkj img{
-    width: 100%;
-    height: 100%;
+.main{
+    position: relative;
+    z-index: 9;
+}
+.logo{
+    position:relative;
+    z-index: 9;
+}
+.Apinteiro img{
+    width: 50vw;
+    height: 80vh;
 }
 #trocacena{
-    opacity: 0;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: 9;
 }
